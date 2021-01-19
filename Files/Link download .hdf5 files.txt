@@ -1,0 +1,5 @@
+Link to download the .hdf5 files from UNets already trained to identify forest / non-forest and clouds using images from the Sentinel-2 satellite.
+
+Synaptic weights files:
+https://drive.google.com/drive/folders/1fNrynA0RGm8cNRlnVy8lF0XDQyoJ1D63?usp=sharing
+
