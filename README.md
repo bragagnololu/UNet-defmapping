@@ -14,8 +14,7 @@ Deforestation-mapping folder and the files available in "Files". Otherwise, it i
 To do so, you must have the training images and their respective masks at hand.
 
 ### 1.1 Training a UNet
-The UNet training procedures are described in the README.md file, found in the UNet folder. The training, validation and test 
-images used for the development of the master's thesis can be found on the links: **XXXXX**
+The UNet training procedures are described in the README.md file, found in the UNet folder. 
 <br/>
 For a new training to be used in the deforestation mapping algorithm, pay attention to using Level 2A Sentinel-2 images and a composition of
 RGB + Near-infrared images (Bands 4-3-2-8).
@@ -93,3 +92,8 @@ and defining the time period to be covered by the analysis (*parameter date*):
                      #cloudcoverpercentage = (0, 20)
                     )
 
+## 2 Results
+At the end of the algorithm, raster images will be obtained indicating the deforestation spots for the given image, as well as vector files, in the shapefile .shp format, also indicating the deforested areas.
+
+## References
+Bragagnolo, L., Silva, R.V., Grzybowski, J.M.V. (2021) Deforestation mapping in two Brazilian biomes applying U-Net and logistic model. *(under evaluation)*
