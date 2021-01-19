@@ -1,8 +1,6 @@
 *UNet-defmapping/UNet* has the codes used to carry out UNet training, considering the problem of binary forest/non-forest classification in images from the Sentinel-2 satellite.
 
-**Step 1:**
-
-*gen_npy_files.py* -> Transform training/validation images and masks into arrays.
+**Step 1:** *gen_npy_files.py* -> Transform training/validation images and masks into arrays.
 
 Required folder structure: 
 <br />
