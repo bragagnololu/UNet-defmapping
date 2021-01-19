@@ -4,7 +4,9 @@
 
 *gen_npy_files.py* -> Transform training/validation images and masks into arrays.
 
-Required folder structure:
+Required folder structure: 
+<br />
+```
 --Training (define in lines 19-21)
  |__image
  |__label
@@ -12,7 +14,7 @@ Required folder structure:
 --Validation (define in lines 67-69)
  |__image
  |__label
-
+```
 *Set image size on line 22.
 
 
@@ -25,11 +27,13 @@ Attention: at the end of the training, save the 'bands_third.npy' and 'bands_nin
 *teste.py* -> After training, you can apply test images for evaluation. Change of variables and parameters in lines 8-20.
 
 Required folder structure:
---Test
- | __images
- |_ _predictions (empty)
- | __probabilities (empty)
 
+    --Test
+     |__images
+     |__predictions (empty)
+     |__probabilities (empty)
 
 **Step 4:**
 *metrics_calc_test.py* -> Calculates metrics for UNet classified images and reference images (masks).
+
+
