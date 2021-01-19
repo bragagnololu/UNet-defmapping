@@ -7,6 +7,7 @@ located in Brazil. Therefore, the files presented in the "Files" folder refer to
 The results of these applications are being evaluated in journals and the access links will be made available as soon as they undergo peer review.
 <br/>
 
+
 ## 1 Usage
 
 To identify deforestation in areas where UNet has already been trained (Amazon and Atlantic Rainforest), it is possible to directly use the scripts presented in the 
@@ -97,3 +98,17 @@ At the end of the algorithm, raster images will be obtained indicating the defor
 
 ## References
 Bragagnolo, L., Silva, R.V., Grzybowski, J.M.V. (2021) Deforestation mapping in two Brazilian biomes applying U-Net and logistic model. *(under evaluation)*
+
+## System requirements
+    Python 3.0
+    Keras and Tensorflow
+    sklearn
+    rasterio
+    rkimage
+    fiona
+    cv2
+    numpy_indexed
+    sentinelsat
+    zipfile
+    glob
+    matplotlib
