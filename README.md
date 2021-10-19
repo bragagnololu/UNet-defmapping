@@ -97,7 +97,9 @@ and defining the time period to be covered by the analysis (*parameter date*):
 At the end of the algorithm, raster images will be obtained indicating the deforestation spots for the given image, as well as vector files, in the shapefile .shp format, also indicating the deforested areas.
 
 ## References
-Bragagnolo, L., Silva, R.V., Grzybowski, J.M.V. (2021) Deforestation mapping in two Brazilian biomes applying U-Net and logistic model. *(under evaluation)*
+Bragagnolo, L., R. V. da Silva, and J. M. V. Grzybowski. "Towards the automatic monitoring of deforestation in Brazilian rainforest." Ecological Informatics (2021): 101454. https://doi.org/10.1016/j.ecoinf.2021.101454
+
+Bragagnolo, L., Roberto Valmir da Silva, and José Mario Vicensi Grzybowski. "Amazon forest cover change mapping based on semantic segmentation by U-Nets." Ecological Informatics 62 (2021): 101279. https://doi.org/10.1016/j.ecoinf.2021.101279
 
 ## System requirements
     Python 3.0
